@@ -45,5 +45,17 @@ Métodos			Verbos
 
 El cliente (Juan, Perez) compra un árticulo rojo
 
+// java C++ C#.net
+class Automovil{
+	String color;
+	String modelo;
+	double precio;
+	boolean usado;
+}
 
-
+# Python
+class Automovil:
+	color
+	modelo
+	precio
+	usado
