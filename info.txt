@@ -1,0 +1,49 @@
+Curso: Introducción al paradigma de objetos	10hs.
+Clase Sábado 21/5:	15:00 a 18:00 hs.
+Clase Sábado 28/5:	15:00 a 18:00 hs.
+Clase Sábado 04/6:	18:00 a 19:00 hs.
+
+Profe: Carlos Ríos	carlos.rios@educacionit.com
+
+Materiales:	alumni.educacionit.com
+				user: email
+				pass: dni
+				
+			github: https://github.com/crios2020/paradigmaMayo
+
+
+
+Ejemplo paradigma logico - Código Espagueti
+10 print 'Hola'
+20 print 'Cual es tu nombre?'
+30 input nombre
+40 print 'Hola '+nombre
+50 *************************
+60 *************************
+70 *************************
+80 goto 100
+90 *************************
+100 *************************
+110 *************************
+120 goto 150
+130 *************************
+140 *************************
+150 goto 10
+160 *************************
+
+Ejemplo Estructurado
+print 'Hola'
+while in<>fin
+	input in
+	print in
+end while
+
+Paradigma de Objetos
+Clases			Sustantivos
+Atributos		Adjetivos
+Métodos			Verbos
+
+El cliente (Juan, Perez) compra un árticulo rojo
+
+
+
