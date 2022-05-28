@@ -59,3 +59,14 @@ class Automovil:
 	modelo
 	precio
 	usado
+	
+class Cuenta{
+	int nro;
+	double saldo;
+}
+
+class Cliente{
+	int nro;
+	String nombre;
+	Cuenta cuenta;
+}
