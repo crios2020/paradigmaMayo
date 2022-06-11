@@ -54,7 +54,7 @@ class Automovil{
 }
 
 # Python
-class Automovil:
+class Automovil(Vehiculo):
 	color
 	modelo
 	precio

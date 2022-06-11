@@ -12,14 +12,7 @@ public class Auto{
 	//Método constructor
 	
 	
-	//Métodos
-	public void acelerar(){
-		//velocidad = velocidad + 10;
-		//if(velocidad>100){
-		//	velocidad=100;
-		//}
-		acelerar(10);
-	}
+
 	
 	//Métodos constructores
 	public Auto(){} //constructor vacio!
@@ -30,15 +23,24 @@ public class Auto{
 		this.color = color;
 	}
 
+	//Métodos
+	public void acelerar(){									//acelerar
+		//velocidad = velocidad + 10;
+		//if(velocidad>100){
+		//	velocidad=100;
+		//}
+		acelerar(10);
+	}
+	
 	//Método con ingreso de parámetros
-	private void acelerar(int kilometros){
+	private void acelerar(int kilometros){					//acelerarInt
 		velocidad = velocidad + kilometros;
 		if(velocidad>100){
 			velocidad=100;
 		}
 	}
 	
-	public void acelerar(int kilometros, boolean nitro){
+	public void acelerar(int kilometros, boolean nitro){	//acelerarIntBoolean
 		if(nitro){
 			acelerar(kilometros*2);					//llamado a método de la misma clase
 		}else{
